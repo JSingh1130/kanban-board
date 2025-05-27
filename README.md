@@ -12,7 +12,7 @@ This is a **Mini Kanban Board** built using **React + TypeScript + Tailwind CSS*
 - 💾 Tasks are saved in `localStorage` — they persist after refresh
 - 📱 Fully responsive (mobile-first design)
 - 🎨 Utility-first styling with Tailwind CSS (no UI libraries)
-- ♿️ Basic accessibility (keyboard + ARIA-friendly layout)
+- ♿️ Basic accessibility with ARIA roles and keyboard navigation
 
 ---
 
@@ -20,29 +20,29 @@ This is a **Mini Kanban Board** built using **React + TypeScript + Tailwind CSS*
 
 - **React** (Functional components only)
 - **TypeScript** for type safety
-- **Tailwind CSS** for fast UI styling
-- **Vite** for fast dev and build
-- **LocalStorage** for persistence
+- **Tailwind CSS** for utility-first styling
+- **Vite** for blazing-fast dev/build
+- **LocalStorage** for data persistence
 
 ---
 
 ## 🏗️ Architecture & State Management
 
-- Tasks are stored in a local `useState` hook
-- Task data is persisted using `localStorage`
-- Modal component is managed with boolean `showModal` state
-- Columns are dynamically rendered based on task status
+- State managed using `useState`
+- `localStorage` used for task persistence across sessions
+- Modal controlled using a simple boolean flag (`showModal`)
+- Tasks are dynamically filtered and rendered into column components
 
 > ❓ Why `useState`?
 >
-> Since this app has simple, local UI state, `useState` is ideal — lightweight, readable, and performant.
+> The state is simple, localized, and doesn’t need global sharing — `useState` is fast, readable, and perfect for this use case.
 
 ---
 
 ## 📦 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/kanban-board.git
+git clone https://github.com/JSingh1130/kanban-board.git
 cd kanban-board
 npm install
 npm run dev
