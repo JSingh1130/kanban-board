@@ -21,21 +21,21 @@ This is a **Mini Kanban Board** built using **React + TypeScript + Tailwind CSS*
 - **React** (Functional components only)
 - **TypeScript** for type safety
 - **Tailwind CSS** for utility-first styling
-- **Vite** for blazing-fast dev/build
-- **LocalStorage** for data persistence
+- **Vite** for fast development and build
+- **LocalStorage** for persistence
 
 ---
 
 ## 🏗️ Architecture & State Management
 
-- State managed using `useState`
-- `localStorage` used for task persistence across sessions
-- Modal controlled using a simple boolean flag (`showModal`)
-- Tasks are dynamically filtered and rendered into column components
+- Tasks are managed with `useState`
+- Data is persisted in the browser using `localStorage`
+- Modal state is managed with a boolean (`showModal`)
+- Columns are rendered dynamically based on task `status`
 
 > ❓ Why `useState`?
 >
-> The state is simple, localized, and doesn’t need global sharing — `useState` is fast, readable, and perfect for this use case.
+> The app has simple, localized state and doesn't require complex state management. `useState` keeps the code clean and fast.
 
 ---
 
