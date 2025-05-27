@@ -1,10 +1,5 @@
-Absolutely! Here's your **final complete `README.md`** with your **live demo link** already included:
 
----
 
-### ✅ Final `README.md` (Ready to Submit)
-
-````markdown
 # 🧩 Mini Kanban Board - Frontend Engineer Trainee Assignment
 
 This is a **Mini Kanban Board** built using **React + TypeScript + Tailwind CSS** as part of the take-home assignment for the **Frontend Engineer Trainee** role at **Vectrum Technologies**.
