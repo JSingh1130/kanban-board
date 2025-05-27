@@ -94,8 +94,6 @@ Frontend Engineer Trainee Applicant
 🔗 [GitHub Profile](https://github.com/JSingh1130)
 🔗 [Live App on Vercel](https://kanban-board-opal-nu.vercel.app/)
 
-```
 
----
 
 
