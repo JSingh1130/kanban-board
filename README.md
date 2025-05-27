@@ -1,3 +1,10 @@
+Absolutely! Here's your **final complete `README.md`** with your **live demo link** already included:
+
+---
+
+### ✅ Final `README.md` (Ready to Submit)
+
+````markdown
 # 🧩 Mini Kanban Board - Frontend Engineer Trainee Assignment
 
 This is a **Mini Kanban Board** built using **React + TypeScript + Tailwind CSS** as part of the take-home assignment for the **Frontend Engineer Trainee** role at **Vectrum Technologies**.
@@ -46,3 +53,54 @@ git clone https://github.com/JSingh1130/kanban-board.git
 cd kanban-board
 npm install
 npm run dev
+````
+
+---
+
+## 🌐 Live Demo
+
+🔗 [View Deployed App on Vercel](https://kanban-board-opal-nu.vercel.app/)
+
+---
+
+## 📌 Assignment Checklist
+
+| Requirement                              | Status |
+| ---------------------------------------- | ------ |
+| React + TypeScript                       | ✅ Done |
+| Functional components only               | ✅ Done |
+| State management of choice               | ✅ Done |
+| Add tasks via modal                      | ✅ Done |
+| Move tasks between columns               | ✅ Done |
+| Persist tasks with `localStorage`        | ✅ Done |
+| Responsive design                        | ✅ Done |
+| Tailwind used (no component libraries)   | ✅ Done |
+| Clean, structured, readable codebase     | ✅ Done |
+| Accessibility (ARIA roles, keyboard nav) | ✅ Done |
+| Deployed and working live app            | ✅ Done |
+
+---
+
+## 🎯 Future Enhancements (Optional)
+
+* 🧲 Drag-and-drop support (e.g. `react-beautiful-dnd`)
+* 🌗 Light/Dark mode toggle
+* 🗑 Delete task option
+* ♻️ Undo/Redo task movement
+* ☁️ Backend API (Node.js + MongoDB or Firebase)
+* 🔒 User authentication
+
+---
+
+## 👤 Author
+
+**Jatinjot Singh**
+Frontend Engineer Trainee Applicant
+🔗 [GitHub Profile](https://github.com/JSingh1130)
+🔗 [Live App on Vercel](https://kanban-board-opal-nu.vercel.app/)
+
+```
+
+---
+
+
